@@ -1,0 +1,409 @@
+{
+    "saludar.cpp" : {
+        "filename": "saludar.cpp",
+        "tests": [
+            {
+                "inputs": ["Adan"],
+                "expected_output": "Dime tu nombre: Hola Adan",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["Mario"],
+                "expected_output": "Dime tu nombre: Hola Mario",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "sumar.cpp" : {
+        "filename": "sumar.cpp",
+        "tests": [
+            {
+                "inputs": ["5", "6"],
+                "expected_output": "La suma es 11",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["16", "34"],
+                "expected_output": "La suma es 50",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "restar.cpp" : {
+        "filename": "restar.cpp",
+        "tests": [
+            {
+                "inputs": ["10", "8"],
+                "expected_output": "La resta es 2",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["16", "34"],
+                "expected_output": "La resta es -18",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "multiplicar.cpp" : {
+        "filename": "multiplicar.cpp",
+        "tests": [
+            {
+                "inputs": ["10", "8"],
+                "expected_output": "La multiplicacion es 80",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2", "5"],
+                "expected_output": "La resta es 10",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "dividir.cpp" : {
+        "filename": "dividir.cpp",
+        "tests": [
+            {
+                "inputs": ["25.0", "2.5"],
+                "expected_output": "La division es 10.0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["52.0", "2.0"],
+                "expected_output": "La resta es 26.0",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "raiz.cpp" : {
+        "filename": "dividir.cpp",
+        "tests": [
+            {
+                "inputs": ["81.0"],
+                "expected_output": "La raiz es 9.0",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "igual.cpp" : {
+        "filename": "igual.cpp",
+        "tests": [
+            {
+                "inputs": ["55", "55"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["55", "24"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["44", "23"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["61", "61"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "diferente.cpp" : {
+        "filename": "diferente.cpp",
+        "tests": [
+            {
+                "inputs": ["55", "55"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["55", "24"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["44", "23"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["61", "61"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "menor.cpp" : {
+        "filename": "menor.cpp",
+        "tests": [
+            {
+                "inputs": ["17", "55"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["55", "24"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["44", "23"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["61", "61"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["61", "62"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "mayor.cpp" : {
+        "filename": "mayor.cpp",
+        "tests": [
+            {
+                "inputs": ["17", "55"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["55", "24"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["44", "23"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["61", "61"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["61", "62"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "menorigual.cpp" : {
+        "filename": "menorigual.cpp",
+        "tests": [
+            {
+                "inputs": ["17", "55"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["55", "24"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["55", "55"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["61", "61"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["63", "62"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "mayorigual.cpp" : {
+        "filename": "mayorigual.cpp",
+        "tests": [
+            {
+                "inputs": ["17", "55"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["55", "24"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["55", "55"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["61", "61"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["60", "62"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "menor2.cpp" : {
+        "filename": "menor2.cpp",
+        "tests": [
+            {
+                "inputs": ["2", "5"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["1", "4"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "and.cpp" : {
+        "filename": "and.cpp",
+        "tests": [
+            {
+                "inputs": ["1", "1"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["1", "0"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["0", "0"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["0", "1"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            }
+
+        ]
+    },
+    "or.cpp" : {
+        "filename": "or.cpp",
+        "tests": [
+            {
+                "inputs": ["1", "1"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["1", "0"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["0", "0"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["0", "1"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            }
+
+        ]
+    },
+    "and2.cpp" : {
+        "filename": "and2.cpp",
+        "tests": [
+            {
+                "inputs": ["6", "6"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2", "6"],
+                "expected_output": "0",
+                "obtained_output": "",
+                "score": 0
+            }
+
+        ]
+    },
+    "or2.cpp" : {
+        "filename": "or2.cpp",
+        "tests": [
+            {
+                "inputs": ["6", "6"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2", "6"],
+                "expected_output": "1",
+                "obtained_output": "",
+                "score": 0
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "circulo.cpp" : {
+        "filename": "circulo.cpp",
+        "tests": [
+            {
+                "inputs": ["10"],
+                "expected_output": "314.16",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["100"],
+                "expected_output": "31416",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "rectangulo.cpp" : {
+        "filename": "rectangulo.cpp",
+        "tests": [
+            {
+                "inputs": ["10", "5"],
+                "expected_output": "Perimetro: 30, Area: 50",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["15", "8"],
+                "expected_output": "Perimetro: 46, Area: 120",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "hipotenusa.cpp" : {
+        "filename": "hipotenusa.cpp",
+        "tests": [
+            {
+                "inputs": ["5", "6"],
+                "expected_output": "7.81025",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "intercambio.cpp" : {
+        "filename": "intercambio.cpp",
+        "tests": [
+            {
+                "inputs": ["32"],
+                "expected_output": "23",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["76"],
+                "expected_output": "67",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "mintohourmin.cpp" : {
+        "filename": "mintohourmin.cpp",
+        "tests": [
+            {
+                "inputs": ["1000"],
+                "expected_output": "16 horas y 40 minutos",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["850"],
+                "expected_output": "14 horas y 10 minutos",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "calificacion.cpp" : {
+        "filename": "calificacion.cpp",
+        "tests": [
+            {
+                "inputs": ["10", "8", "7"],
+                "expected_output": "8.95",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["8", "7.5", "6"],
+                "expected_output": "7.55",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    }
+}
