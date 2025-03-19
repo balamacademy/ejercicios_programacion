@@ -1,0 +1,287 @@
+{
+    "mayordeedad.cpp" : {
+        "filename": "mayordeedad.cpp",
+        "tests": [
+            {
+                "inputs": ["18"],
+                "expected_output": "Eres Mayor",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["15"],
+                "expected_output": "No eres Mayor",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["8"],
+                "expected_output": "No eres Mayor",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["25"],
+                "expected_output": "Eres Mayor",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "divisionexacta.cpp" : {
+        "filename": "divisionexacta.cpp",
+        "tests": [
+            {
+                "inputs": ["10", "5"],
+                "expected_output": "La division es exacta",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["21", "4"],
+                "expected_output": "La division NO es exacta",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["27", "3"],
+                "expected_output": "La division es exacta",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["1022", "12"],
+                "expected_output": "La division NO es exacta",
+                "obtained_output": "",
+                "score": 0
+            }
+
+        ]
+    },
+    "parimpar.cpp" : {
+        "filename": "parimpar.cpp",
+        "tests": [
+            {
+                "inputs": ["80"],
+                "expected_output": "Numero par",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["21"],
+                "expected_output": "Numero impar",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["1200"],
+                "expected_output": "Numero par",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["99"],
+                "expected_output": "Numero impar",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "agnosfaltantes.cpp" : {
+        "filename": "agnosfaltantes.cpp",
+        "tests": [
+            {
+                "inputs": ["2025", "2000"],
+                "expected_output": "Han pasado 25 agnos",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2025", "2035"],
+                "expected_output": "Faltan 10 agnos",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2025", "1890"],
+                "expected_output": "Han pasado 135 agnos",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2025", "2098"],
+                "expected_output": "Faltan 73 agnos",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "bisiesto.cpp" : {
+        "filename": "mintohourmin.cpp",
+        "tests": [
+            {
+                "inputs": ["2024"],
+                "expected_output": "Es bisiesto",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2025"],
+                "expected_output": "No es bisiesto",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2000"],
+                "expected_output": "Es bisiesto",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "mes.cpp" : {
+        "filename": "mes.cpp",
+        "tests": [
+            {
+                "inputs": ["12"],
+                "expected_output": "Diciembre",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["1"],
+                "expected_output": "Enero",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2"],
+                "expected_output": "Febrero",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["9"],
+                "expected_output": "Septiembre",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "dia.cpp" : {
+        "filename": "dia.cpp",
+        "tests": [
+            {
+                "inputs": ["1"],
+                "expected_output": "Lunes",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2"],
+                "expected_output": "Martes",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["3"],
+                "expected_output": "Miercoles",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["7"],
+                "expected_output": "Domingo",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "calificacionesalfa.cpp" : {
+        "filename": "calificacionesalfa.cpp",
+        "tests": [
+            {
+                "inputs": ["A"],
+                "expected_output": "9",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["B"],
+                "expected_output": "8",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["C"],
+                "expected_output": "7",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["D"],
+                "expected_output": "6",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["E"],
+                "expected_output": "5",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["F"],
+                "expected_output": "4",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["Z"],
+                "expected_output": "No existe",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "saladejuegos.cpp" : {
+        "filename": "saladejuegos.cpp",
+        "tests": [
+            {
+                "inputs": ["4"],
+                "expected_output": "¡¡Gratis!!",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["15"],
+                "expected_output": "Paga $5",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["45"],
+                "expected_output": "Paga $10",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "iva.cpp" : {
+        "filename": "iva.cpp",
+        "tests": [
+            {
+                "inputs": ["5", "100"],
+                "expected_output": "Pagar $575",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["4", "300"],
+                "expected_output": "Pagar $1311",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    }
+}

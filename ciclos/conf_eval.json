@@ -1,0 +1,108 @@
+{
+    "repetir10.cpp" : {
+        "filename": "repetir10.cpp",
+        "tests": [
+            {
+                "inputs": ["hola"],
+                "expected_output": "hola\nhola\nhola\nhola\nhola\nhola\nhola\nhola\nhola\nhola",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["mundo"],
+                "expected_output": "mundo\nmundo\nmundo\nmundo\nmundo\nmundo\nmundo\nmundo\nmundo\nmundo",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "sumarentre.cpp" : {
+        "filename": "sumarentre.cpp",
+        "tests": [
+            {
+                "inputs": ["3", "6"],
+                "expected_output": "La suma es 9",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["5", "15"],
+                "expected_output": "La suma es 90",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "divisores.cpp" : {
+        "filename": "divisores.cpp",
+        "tests": [
+            {
+                "inputs": ["10"],
+                "expected_output": "Sus divisores son: 1, 2, 5",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["15"],
+                "expected_output": "Sus divisores son: 1, 3, 5",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "triangulo.cpp" : {
+        "filename": "triangulo.cpp",
+        "tests": [
+            {
+                "inputs": ["4"],
+                "expected_output": "   *\n  ***\n *****\n*******",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "hexagono.cpp" : {
+        "filename": "hexagono.cpp",
+        "tests": [
+            {
+                "inputs": ["5"],
+                "expected_output": "    *****\n   *******\n  *********\n ***********\n*************\n ***********\n  *********\n   *******\n    *****",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "eco.cpp" : {
+        "filename": "eco.cpp",
+        "tests": [
+            {
+                "inputs": ["hola", "como", "estas", "salir"],
+                "expected_output": "hola\n como\n estas",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "conteo.cpp" : {
+        "filename": "conteo.cpp",
+        "tests": [
+            {
+                "inputs": ["1", "2", "-1", "-3", "-4", "0"],
+                "expected_output": "Positivos ##\nNegativos ###",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "adivina.cpp" : {
+        "filename": "adivina.cpp",
+        "tests": [
+            {
+                "inputs": [36, 80, 40, 20, 30, 35, 38, 36],
+                "expected_output": "menor\nmenor\nmayor\nmayor\nmayor\nmenor\nAdivinaste",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    }
+}
