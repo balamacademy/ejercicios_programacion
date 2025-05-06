@@ -38,7 +38,7 @@
 
 1. **Invertido**
    - Descripción: Dado un número de dos cifras, diseñe un algoritmo que permita obtener el número invertido.
-   - Nombre de archivo: `intercambio.cpp`
+   - Nombre de archivo: `Invertido.cpp`
    - Ejemplo:
      ```
      Entrada: 32

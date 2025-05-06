@@ -111,7 +111,7 @@
    - Ejemplo:
      ```
      Entrada: 4
-     Salida: ¡¡Gratis!!
+     Salida: Paga $5
      ```
      ```
      Entrada: 15
