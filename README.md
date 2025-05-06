@@ -497,6 +497,7 @@
     Columna 4: 70
     Columna 5: 75
     ```
+## Algebra lineal
 
 1. **Matriz Identidad:**
    - Descripción: Crea una matriz identidad de tamaño n.
@@ -513,6 +514,23 @@
       0 0 0 1
      ```
 
+2. **Suma de escalar y matriz**
+   - Descripción: Realiza la suma de un escalar a una matriz
+   - Nombre de archivo: `suma_escalar_matrices.cpp`
+   - Ejemplo:
+     ```
+     Entrada: 2, 1, 2, 3, 4, 10
+     Matriz A:
+     1  2
+     3  4
+     
+     Escalar: 10
+     
+     Salida:
+     - Se ve así:
+     11 12
+     13 14
+     ```
 1. **Suma de Matrices:**
    - Descripción: Realiza la suma de dos matrices de igual tamaño.
    - Nombre de archivo: `suma_matrices.cpp`
@@ -531,6 +549,25 @@
      - Se ve así:
      6 8
      10 12
+     ```
+
+1. **Producto escalar y Matrices:**
+   - Descripción: Calcula el producto de un escalar y una matrices.
+   - Nombre de archivo: `producto_escalar_matrices.cpp`
+   - Ejemplo:
+     
+     ```
+     Entrada: 2, 1, 2, 3, 5
+     Matriz A:
+     1  2
+     3  4
+     
+     Escalar: 5
+     
+     Salida:
+     - Se ve así:
+     5 10
+     15 20
      ```
 
 1. **Producto de Matrices:**
@@ -806,6 +843,9 @@ Ejemplo:
 Ingrese secuencia: 01010101000011001100
 El culpable es Pedro con un parentezco de 60%
 ```
+
+## Hormmiga de Langton
+
 
 ## Juego de la vida
 
