@@ -13,7 +13,7 @@
 1. Lea 10 números por teclado, los almacene en un array y muestre la suma, resta, multiplicación y división de todos. - Nombre de archivo: `arreglos_6.cpp`
 
 1. Cree un arreglo de 10 posiciones de numeros enteros. Pida al usuario los 10 numeros pero este valor siempre se ingresa en la posición 0, recorriendo los demás valores.  - Nombre de archivo: `arreglos_7.cpp`
-        Ejemplo
+    Ejemplo
     ```
     - A = [ 0, 0, 0, 0]
     - Usuario 1
